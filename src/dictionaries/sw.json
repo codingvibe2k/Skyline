@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "Bujumbura, Burundi",
+    "title": "Chumba cha Maonyesho ya Magari ya Kifahari",
+    "subtitle": "Kiwango Halisi cha 0 Km",
+    "description": "Gundua meli yetu ya kipekee ya magari mapya ya umeme ya kiwandani, yaliyoundwa kwa ajili ya wanadiplomasia, mashirika na taasisi zinazohitaji nchini Burundi bila uzalishaji wowote.",
+    "ctaPrimary": "Gundua Chumba cha Maonyesho",
+    "ctaSecondary": "Miundombinu ya Kuchaji"
+  },
+  "nav": {
+    "showroom": "Meli ya Maonyesho",
+    "chargingGrid": "Gridi ya Kuchaji",
+    "inquiries": "Maswali na Maombi",
+    "controlCenter": "Kituo cha Udhibiti"
+  },
+  "properties": {
+    "batteryPack": "Kifurushi cha Betri",
+    "operatingRange": "Upeo wa Uendeshaji",
+    "peakPower": "Nguvu ya Juu",
+    "onBoardComputer": "Kompyuta ya Ndani",
+    "factoryWarranty": "Dhamana ya Kiwanda",
+    "energyCapacity": "Uwezo wa Nishati",
+    "driveType": "Usanidi wa Uendeshaji",
+    "acceleration": "Mvuto (Kasi ya 0-100 km/h)"
+  },
+  "infrastructure": {
+    "stationStatus": "Hali ya Kituo",
+    "chargerConnection": "Uunganisho wa Chaja",
+    "highVoltageOutput": "Nishati ya Voltage ya Juu",
+    "activeStations": "Vituo Amilifu",
+    "connectorType": "Aina ya Kiunganishi",
+    "powerOutput": "Nguvu ya Kutoa"
+  }
+}

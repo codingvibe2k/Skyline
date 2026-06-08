@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "Bujumbura, Uburundi",
+    "title": "Ikibanza c'Imiduga ya Premium",
+    "subtitle": "Ibipimo Nkoramutima vya 0 Km",
+    "description": "Tora imiduga mishasha yacu ya kigirishingo (EV) ivuye kw'ihinguriro, yateguriwe abadandaji, amashirika n'inzego zikomeye mu Burundi ata myotsi isohora.",
+    "ctaPrimary": "Gendera Ikibanza",
+    "ctaSecondary": "Ibikoresho vyo Guchaji"
+  },
+  "nav": {
+    "showroom": "Ahabikwa Imiduga",
+    "chargingGrid": "Réseau yo Guchaji",
+    "inquiries": "Idosiye z'Ibikenerwa",
+    "controlCenter": "Ikibanza co Guhagararira"
+  },
+  "properties": {
+    "batteryPack": "Imihango ya Batterie",
+    "operatingRange": "Urugendo ishobora gukora",
+    "peakPower": "Inguvu z'Umurengera",
+    "onBoardComputer": "Imashini y'imbere mu muduga",
+    "factoryWarranty": "Ingarantiyé y'Ihinguriro",
+    "energyCapacity": "Ububiko bw'Inguvu",
+    "driveType": "Uburyo bwo kuyobora",
+    "acceleration": "Kunyurura (0-100 km/h)"
+  },
+  "infrastructure": {
+    "stationStatus": "Uko ikibaza gihagaze",
+    "chargerConnection": "Ihuriro ryo Guchaji",
+    "highVoltageOutput": "Inguvu y'Imiriro Inini",
+    "activeStations": "Ibibanza Bikora",
+    "connectorType": "Ubwoko bw'Igikoresho",
+    "powerOutput": "Inguvu Zisohoka"
+  }
+}

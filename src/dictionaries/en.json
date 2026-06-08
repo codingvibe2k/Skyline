@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "Bujumbura, Burundi",
+    "title": "Premium Automotive Showroom",
+    "subtitle": "Absolute 0 Km Standard",
+    "description": "Discover our exclusive fleet of factory-fresh electric vehicles, designed for diplomats, corporates, and demanding institutions in Burundi with zero emissions.",
+    "ctaPrimary": "Explore Showroom",
+    "ctaSecondary": "Charging Infrastructure"
+  },
+  "nav": {
+    "showroom": "Fleet Showroom",
+    "chargingGrid": "Charging Grid",
+    "inquiries": "Inquiries",
+    "controlCenter": "Control Center"
+  },
+  "properties": {
+    "batteryPack": "Battery Pack",
+    "operatingRange": "Operating Range",
+    "peakPower": "Peak Power",
+    "onBoardComputer": "On-Board Computer",
+    "factoryWarranty": "Factory Warranty",
+    "energyCapacity": "Energy Capacity",
+    "driveType": "Drive Configuration",
+    "acceleration": "Acceleration (0-100 km/h)"
+  },
+  "infrastructure": {
+    "stationStatus": "Station Status",
+    "chargerConnection": "Charger Connection",
+    "highVoltageOutput": "High-Voltage Power Output",
+    "activeStations": "Active Stations",
+    "connectorType": "Connector Type",
+    "powerOutput": "Power Output"
+  }
+}

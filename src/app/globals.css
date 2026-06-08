@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  /* Suppress standard light modes by setting base values directly to dark luxury theme */
+  --background: #070807;
+  --foreground: #E2E8F0;
+}
+
+@theme {
+  /* Brand Luxury Palette */
+  --color-brand-obsidian: #070807;
+  --color-brand-espresso: #1F1C18;
+  --color-brand-crimson: #DD423F;
+  --color-brand-gold: #E1C499;
+  --color-brand-platinum: #E2E8F0;
+  --color-brand-emerald: #10B981;
+  --color-status-success: #059669;
+  --color-status-error: #DC2626;
+
+  /* Typography Fonts */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+
+  /* Corporate Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Bounded Typography Scale (Explicitly map line heights to avoid layout shifts) */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.00rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.25rem;
+  --text-base: 1.00rem;
+  --text-base--line-height: 1.50rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.875rem;
+  --text-2xl: 1.50rem;
+  --text-2xl--line-height: 2.00rem;
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: 2.25rem;
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: 2.75rem;
+  --text-5xl: 3.00rem;
+  --text-5xl--line-height: 3.50rem;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 4.25rem;
+  --text-7xl: 4.50rem;
+  --text-7xl--line-height: 5.00rem;
+}
+
+/* Base resets and configuration styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-obsidian);
+  color: var(--color-brand-platinum);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
