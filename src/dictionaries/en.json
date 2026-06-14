@@ -11,7 +11,10 @@
     "showroom": "Fleet Showroom",
     "chargingGrid": "Charging Grid",
     "inquiries": "Inquiries",
-    "controlCenter": "Control Center"
+    "controlCenter": "Control Center",
+    "network": "Charging Network",
+    "fleet": "Corporate Intake",
+    "diplomatic": "Diplomatic Hub"
   },
   "properties": {
     "batteryPack": "Battery Pack",
@@ -30,5 +33,82 @@
     "activeStations": "Active Stations",
     "connectorType": "Connector Type",
     "powerOutput": "Power Output"
+  },
+  "footer": {
+    "tagline": "Pioneering factory-fresh electric mobility with unmatched performance and zero emissions at the core.",
+    "columns": {
+      "corporate": {
+        "heading": "Corporate Fleet Hub",
+        "links": [
+          { "label": "All Electric Vehicles", "href": "/showroom" },
+          { "label": "BYD Models", "href": "/showroom?brand=BYD" },
+          { "label": "MG Models", "href": "/showroom?brand=MG" },
+          { "label": "Toyota Models", "href": "/showroom?brand=Toyota" },
+          { "label": "View Full Catalog", "href": "/showroom" }
+        ]
+      },
+      "diplomatic": {
+        "heading": "Diplomatic Network",
+        "links": [
+          { "label": "Embassy Fleet Program", "href": "/diplomatic" },
+          { "label": "UN Agency Allocation", "href": "/diplomatic" },
+          { "label": "Corporate Intake", "href": "/fleet" },
+          { "label": "Protocol Compliance", "href": "/diplomatic" },
+          { "label": "Fleet Inquiry", "href": "/fleet" }
+        ]
+      },
+      "sustainability": {
+        "heading": "Sustainability Blueprint",
+        "links": [
+          { "label": "Charging Grid Map", "href": "/network" },
+          { "label": "ESG Commitments", "href": "/network" },
+          { "label": "Zero Emission Data", "href": "/network" },
+          { "label": "Solar Charging Hubs", "href": "/network" },
+          { "label": "Burundi EV Report", "href": "/network" }
+        ]
+      },
+      "legal": {
+        "heading": "Legal & Compliance",
+        "links": [
+          { "label": "Factory Warranty Terms", "href": "/fleet" },
+          { "label": "Privacy Policy", "href": "/fleet" },
+          { "label": "Terms of Service", "href": "/fleet" },
+          { "label": "Cookie Policy", "href": "/fleet" },
+          { "label": "Sitemap", "href": "/fleet" }
+        ]
+      }
+    },
+    "trust": [
+      { "icon": "shield", "title": "Unmatched Quality", "desc": "Rigorous factory certification for uncompromised excellence." },
+      { "icon": "user", "title": "Client First", "desc": "Your satisfaction and privacy are our top priorities." },
+      { "icon": "globe", "title": "Worldwide Delivery", "desc": "Delivering electric mobility to your doorstep." },
+      { "icon": "zap", "title": "Sustainable Future", "desc": "Driving innovation for a cleaner tomorrow." }
+    ],
+    "badges": [
+      { "icon": "shield", "title": "8-Year Battery Warranty", "desc": "Drive with complete peace of mind." },
+      { "icon": "charging", "title": "Nationwide Charging Network", "desc": "Access thousands of charging points." },
+      { "icon": "refresh", "title": "24/7 Roadside Assistance", "desc": "We're here whenever you need us." },
+      { "icon": "lock", "title": "Secure & Encrypted", "desc": "Your data is always protected." }
+    ],
+    "newsletter": {
+      "heading": "Newsletter",
+      "desc": "Subscribe to get the latest updates on new arrivals, offers, and exclusive events.",
+      "placeholder": "Enter your email",
+      "ariaLabel": "Subscribe"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
+    "bottom": {
+      "copyright": "© 2026 Premium 0 Km Showroom. Factory Pristine Specifications Only.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "sitemap": "Sitemap",
+      "backToTop": "Back to top"
+    }
   }
 }

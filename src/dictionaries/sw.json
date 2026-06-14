@@ -11,7 +11,10 @@
     "showroom": "Meli ya Maonyesho",
     "chargingGrid": "Gridi ya Kuchaji",
     "inquiries": "Maswali na Maombi",
-    "controlCenter": "Kituo cha Udhibiti"
+    "controlCenter": "Kituo cha Udhibiti",
+    "network": "Gridi ya Kuchaji",
+    "fleet": "Uandikishaji wa Mashirika",
+    "diplomatic": "Kituo cha Kidiplomasia"
   },
   "properties": {
     "batteryPack": "Kifurushi cha Betri",
@@ -30,5 +33,82 @@
     "activeStations": "Vituo Amilifu",
     "connectorType": "Aina ya Kiunganishi",
     "powerOutput": "Nguvu ya Kutoa"
+  },
+  "footer": {
+    "tagline": "Tunaongoza usafirishaji wa magari mapya ya umeme wa kiwanda wenye utendaji wa hali na uzalishaji sifuri.",
+    "columns": {
+      "corporate": {
+        "heading": "Kituo cha Meli ya Kampuni",
+        "links": [
+          { "label": "Magari Yote ya Umeme", "href": "/showroom" },
+          { "label": "Mifano ya BYD", "href": "/showroom?brand=BYD" },
+          { "label": "Mifano ya MG", "href": "/showroom?brand=MG" },
+          { "label": "Mifano ya Toyota", "href": "/showroom?brand=Toyota" },
+          { "label": "Tazama Katalogi Yote", "href": "/showroom" }
+        ]
+      },
+      "diplomatic": {
+        "heading": "Mtandao wa Kidiplomasia",
+        "links": [
+          { "label": "Programu ya Meli ya Ubalozi", "href": "/diplomatic" },
+          { "label": "Ugawaji wa Mashirika ya UN", "href": "/diplomatic" },
+          { "label": "Uandikishaji wa Mashirika", "href": "/fleet" },
+          { "label": "Uzingatiaji wa Itifaki", "href": "/diplomatic" },
+          { "label": "Ombi la Meli", "href": "/fleet" }
+        ]
+      },
+      "sustainability": {
+        "heading": "Mpango wa Uendelevu",
+        "links": [
+          { "label": "Ramani ya Mtandao wa Kuchaji", "href": "/network" },
+          { "label": "Ahadi za ESG", "href": "/network" },
+          { "label": "Data ya Uzalishaji Sifuri", "href": "/network" },
+          { "label": "Vituo vya Kuchaji Jua", "href": "/network" },
+          { "label": "Ripoti ya EV Burundi", "href": "/network" }
+        ]
+      },
+      "legal": {
+        "heading": "Kisheria & Uzingatiaji",
+        "links": [
+          { "label": "Masharti ya Dhamana ya Kiwanda", "href": "/fleet" },
+          { "label": "Sera ya Faragha", "href": "/fleet" },
+          { "label": "Masharti ya Huduma", "href": "/fleet" },
+          { "label": "Sera ya Vidakuzi", "href": "/fleet" },
+          { "label": "Ramani ya Tovuti", "href": "/fleet" }
+        ]
+      }
+    },
+    "trust": [
+      { "icon": "shield", "title": "Ubora Usio na Kifani", "desc": "Uthibitisho wa kiwanda mkali kwa ubora usio na maelewano." },
+      { "icon": "user", "title": "Mteja Kwanza", "desc": "Kuridhika kwako na faragha yako ni vipaumbele vyetu." },
+      { "icon": "globe", "title": "Utoaji Duniani", "desc": "Kuwasilisha usafirishaji wa umeme hadi mlangoni kwako." },
+      { "icon": "zap", "title": "Mustakabali Endelevu", "desc": "Kuendesha uvumbuzi kwa kesho safi zaidi." }
+    ],
+    "badges": [
+      { "icon": "shield", "title": "Dhamana ya Betri ya Miaka 8", "desc": "Endesha kwa amani kamili." },
+      { "icon": "charging", "title": "Mtandao wa Kuchaji wa Taifa", "desc": "Pata maelfu ya vituo vya kuchaji." },
+      { "icon": "refresh", "title": "Usaidizi wa Barabarani 24/7", "desc": "Tuko hapa wakati wowote unahitaji." },
+      { "icon": "lock", "title": "Salama & Imesimbwa", "desc": "Data yako inalindwa kila wakati." }
+    ],
+    "newsletter": {
+      "heading": "Jarida",
+      "desc": "Jisajili kupata masasisho ya hivi karibuni kuhusu magari mapya, ofa, na matukio ya kipekee.",
+      "placeholder": "Ingiza barua pepe yako",
+      "ariaLabel": "Jisajili"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
+    "bottom": {
+      "copyright": "© 2026 Chumba cha Maonyesho Premium 0 Km. Maelezo ya Kiwanda Peke Yake.",
+      "privacy": "Sera ya Faragha",
+      "terms": "Masharti ya Huduma",
+      "cookies": "Sera ya Vidakuzi",
+      "sitemap": "Ramani ya Tovuti",
+      "backToTop": "Rudi juu"
+    }
   }
 }

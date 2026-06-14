@@ -24,7 +24,13 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],
-        display: ["var(--font-outfit)", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: [
+          "var(--font-outfit)",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+        ],
+        serif: ["Cormorant Garamond", "serif"],
       },
       fontWeight: {
         light: "300",

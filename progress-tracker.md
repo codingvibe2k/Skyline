@@ -15,12 +15,12 @@ This file serves as the single source of truth for the project's state. The AI d
 - [COMPLETED] **Task 6:** Strict Runtime Schema Mapping: Form Input & Payload Validation via Zod.
 
 ### Phase 2: Structural Architecture & Core Assets
-- [PENDING] **Task 7:** Atomic Media Asset Optimization: Performance-Gated Cloudinary CDN Image Wrapper.
-- [PENDING] **Task 8:** Multi-Lingual Layout Navigation Header Matrix.
-- [PENDING] **Task 9:** Corporate Compliance Global Footer Layout.
+- [COMPLETED] **Task 7:** Atomic Media Asset Optimization: Performance-Gated Cloudinary CDN Image Wrapper.
+- [COMPLETED] **Task 8:** Multi-Lingual Layout Navigation Header Matrix.
+- [COMPLETED] **Task 9:** Corporate Compliance Global Footer Layout.
 
 ### Phase 3: Page 1 — Premium Brand Hub (Homepage)
-- [PENDING] **Task 10:** Homepage Hero Section: High-Fidelity Asset Viewport.
+- [COMPLETED] **Task 10:** Homepage Hero Section: High-Fidelity Asset Viewport.
 - [PENDING] **Task 11:** Parametric Filter Dropdown Selector Matrix.
 - [PENDING] **Task 12:** Socio-Economic National Context Information Grids.
 
@@ -92,3 +92,32 @@ This file serves as the single source of truth for the project's state. The AI d
 - Exported `VehicleInput` and `ChargingStationInput` compile-time types via `z.infer<>` — structurally aligned with interfaces in `src/types/database.types.ts`.
 - Verified zero TypeScript errors (`tsc --noEmit`) and zero ESLint errors/warnings (`npm run lint`).
 - Next sequential task: **Task 7: Atomic Media Asset Optimization: Performance-Gated Cloudinary CDN Image Wrapper**.
+
+### Task 7 Completion Log (2026-06-12)
+- Created `src/lib/utils/cloudinary.ts` with `getOptimizedCloudinaryUrl` injecting `f_auto,q_auto:eco` and width constraints for performance on local Burundi networks.
+- Built atomic `src/components/ui/PremiumImage.tsx` utilizing Next.js `Image` and a custom loader, enforcing a luxury obsidian fallback skeleton.
+- Implemented strict metadata sanitization within `PremiumImage` to fallback to generic luxury text and prevent any leakage of "0 Km" rule violations.
+- Verified zero errors and warnings passing through the `npm run lint` quality gate.
+- Next sequential task: **Task 8: Multi-Lingual Layout Navigation Header Matrix**.
+
+### Task 8 Completion Log (2026-06-12)
+- Verified modular layout navigation component `src/components/layout/Header.tsx` which handles dynamic localization segments for `en`, `fr`, `sw`, and `rn`.
+- Configured premium theme layout colors including `brand-obsidian` (#070807) and `brand-espresso` (#1F1C18) borders.
+- Verified interactive mobile responsive design overlays and instant locale routing exchanges without resetting user parameters.
+- Validated compile and lint pipeline states with zero errors.
+- Next sequential task: **Task 9: Corporate Compliance Global Footer Layout**.
+
+### Task 9 Completion Log (2026-06-12)
+- Extended all four locale dictionaries (`en.json`, `fr.json`, `rn.json`, `sw.json`) with a full `footer` key block covering `tagline`, `columns` (corporate, diplomatic, sustainability, legal), `trust`, `badges`, `newsletter`, `social`, and `bottom` — fully translated for each language, zero references to any 0 Km-forbidden terminology.
+- Created `src/components/layout/Footer.tsx` as a flat `'use client'` functional component with five visual zones matching the screenshot reference: top trust pillars strip, main 4-column nav grid with brand identity + newsletter sidebar, a warranty badges strip, and a localized bottom bar with back-to-top button.
+- Wired `Footer` into `src/app/[lang]/layout.tsx` alongside an explicit `<main>` semantic wrapper for children; the `Dictionary` type in `get-dictionary.ts` automatically infers the new `footer` shape via `typeof enDictionary`.
+- All design tokens (Obsidian Canvas `#070807`, Espresso Trim borders, Champagne Gold hover states, Skyline Crimson active states) applied per Agent.md spec; only Lucide-React icons used in compliance with approved dependency list.
+- Lint gate passed with zero errors/warnings via `npm run lint`.
+- Next sequential task: **Task 10: Homepage Hero Section: High-Fidelity Asset Viewport**.
+
+### Task 10 Completion Log (2026-06-12)
+- Created `src/components/home/HeroBanner.tsx` — a pixel-perfect React Server Component implementing a full-bleed cinematic hero with 3 stacked z-index layers: the `Hero_BG_with_car.png` background image, a left-side gradient shroud for text legibility, and a bottom blend gradient merging into the brand-partners strip.
+- Implemented dual CTAs: primary Skyline Crimson filled pill (`Explore Showroom`) and secondary Champagne Gold outlined pill (`Charging Infrastructure`), wired to i18n dictionary keys `hero.ctaPrimary` / `hero.ctaSecondary` for all four locales.
+- Built the "Our Electric Brand Partners" strip below the hero, surfacing BYD, MG, and Toyota with local logo assets (`BYD_LOGO.png`, `MG_LOGO.png`, `TOYOTA_LOGO.png`) in espresso-bordered cards with gold hover states.
+- Upgraded `src/components/layout/Header.tsx` to match the reference: transparent-to-opaque scroll behavior, Skyline logo image, five nav items (Home / Inventory / Services / About Us / Contact), and a gold-outlined "Book a Test Drive" pill CTA.
+- Lint quality gate passed with zero errors/warnings via `npm run lint`. Next sequential task: **Task 11: Parametric Filter Dropdown Selector Matrix**.

@@ -11,7 +11,10 @@
     "showroom": "Showroom de la Flotte",
     "chargingGrid": "Réseau de Recharge",
     "inquiries": "Demandes",
-    "controlCenter": "Centre de Contrôle"
+    "controlCenter": "Centre de Contrôle",
+    "network": "Réseau de Recharge",
+    "fleet": "Admission de la Flotte",
+    "diplomatic": "Centre Diplomatique"
   },
   "properties": {
     "batteryPack": "Pack Batterie",
@@ -30,5 +33,82 @@
     "activeStations": "Stations Actives",
     "connectorType": "Type de Connecteur",
     "powerOutput": "Puissance de Sortie"
+  },
+  "footer": {
+    "tagline": "Pionnier de la mobilité électrique d'usine avec performance inégalée et zéro émission au cœur.",
+    "columns": {
+      "corporate": {
+        "heading": "Hub Flotte Entreprise",
+        "links": [
+          { "label": "Tous les Véhicules Électriques", "href": "/showroom" },
+          { "label": "Modèles BYD", "href": "/showroom?brand=BYD" },
+          { "label": "Modèles MG", "href": "/showroom?brand=MG" },
+          { "label": "Modèles Toyota", "href": "/showroom?brand=Toyota" },
+          { "label": "Voir le Catalogue Complet", "href": "/showroom" }
+        ]
+      },
+      "diplomatic": {
+        "heading": "Réseau Diplomatique",
+        "links": [
+          { "label": "Programme Flotte Ambassade", "href": "/diplomatic" },
+          { "label": "Allocation Agences ONU", "href": "/diplomatic" },
+          { "label": "Admission de la Flotte", "href": "/fleet" },
+          { "label": "Conformité Protocole", "href": "/diplomatic" },
+          { "label": "Demande de Flotte", "href": "/fleet" }
+        ]
+      },
+      "sustainability": {
+        "heading": "Plan de Durabilité",
+        "links": [
+          { "label": "Carte du Réseau de Recharge", "href": "/network" },
+          { "label": "Engagements ESG", "href": "/network" },
+          { "label": "Données Zéro Émission", "href": "/network" },
+          { "label": "Hubs de Recharge Solaire", "href": "/network" },
+          { "label": "Rapport VE Burundi", "href": "/network" }
+        ]
+      },
+      "legal": {
+        "heading": "Juridique & Conformité",
+        "links": [
+          { "label": "Conditions de Garantie Usine", "href": "/fleet" },
+          { "label": "Politique de Confidentialité", "href": "/fleet" },
+          { "label": "Conditions d'Utilisation", "href": "/fleet" },
+          { "label": "Politique des Cookies", "href": "/fleet" },
+          { "label": "Plan du Site", "href": "/fleet" }
+        ]
+      }
+    },
+    "trust": [
+      { "icon": "shield", "title": "Qualité Inégalée", "desc": "Certification d'usine rigoureuse pour une excellence irréprochable." },
+      { "icon": "user", "title": "Client en Premier", "desc": "Votre satisfaction et vie privée sont nos priorités." },
+      { "icon": "globe", "title": "Livraison Mondiale", "desc": "Mobilité électrique livrée à votre porte." },
+      { "icon": "zap", "title": "Avenir Durable", "desc": "Innover pour un lendemain plus propre." }
+    ],
+    "badges": [
+      { "icon": "shield", "title": "Garantie Batterie 8 Ans", "desc": "Roulez en toute sérénité." },
+      { "icon": "charging", "title": "Réseau de Recharge National", "desc": "Accédez à des milliers de points de recharge." },
+      { "icon": "refresh", "title": "Assistance Routière 24h/7j", "desc": "Nous sommes là quand vous en avez besoin." },
+      { "icon": "lock", "title": "Sécurisé & Chiffré", "desc": "Vos données sont toujours protégées." }
+    ],
+    "newsletter": {
+      "heading": "Newsletter",
+      "desc": "Abonnez-vous pour recevoir les dernières actualités, offres et événements exclusifs.",
+      "placeholder": "Saisissez votre e-mail",
+      "ariaLabel": "S'abonner"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
+    "bottom": {
+      "copyright": "© 2026 Showroom Premium 0 Km. Spécifications Exclusivement d'Usine.",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "cookies": "Politique des Cookies",
+      "sitemap": "Plan du Site",
+      "backToTop": "Retour en haut"
+    }
   }
 }

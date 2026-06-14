@@ -11,7 +11,10 @@
     "showroom": "Ahabikwa Imiduga",
     "chargingGrid": "Réseau yo Guchaji",
     "inquiries": "Idosiye z'Ibikenerwa",
-    "controlCenter": "Ikibanza co Guhagararira"
+    "controlCenter": "Ikibanza co Guhagararira",
+    "network": "Réseau yo Guchaji",
+    "fleet": "Ikibanza c'Amashirika",
+    "diplomatic": "Ihuriro ry'Abadipulomate"
   },
   "properties": {
     "batteryPack": "Imihango ya Batterie",
@@ -30,5 +33,82 @@
     "activeStations": "Ibibanza Bikora",
     "connectorType": "Ubwoko bw'Igikoresho",
     "powerOutput": "Inguvu Zisohoka"
+  },
+  "footer": {
+    "tagline": "Turangura mu gushira imbere imiduga mishasha ya kigirishingo ifite inguvu nziza kandi idakora imicafu.",
+    "columns": {
+      "corporate": {
+        "heading": "Ihuriro ry'Imiduga y'Amashirika",
+        "links": [
+          { "label": "Imiduga Yose ya Kigirishingo", "href": "/showroom" },
+          { "label": "Imiduga ya BYD", "href": "/showroom?brand=BYD" },
+          { "label": "Imiduga ya MG", "href": "/showroom?brand=MG" },
+          { "label": "Imiduga ya Toyota", "href": "/showroom?brand=Toyota" },
+          { "label": "Reba Katalogi Yose", "href": "/showroom" }
+        ]
+      },
+      "diplomatic": {
+        "heading": "Inzira y'Abadipulomate",
+        "links": [
+          { "label": "Porogaramu y'Ambasade", "href": "/diplomatic" },
+          { "label": "Imiduga y'ONU", "href": "/diplomatic" },
+          { "label": "Kwinjira kw'Amashirika", "href": "/fleet" },
+          { "label": "Igenamigambi ry'Amategeko", "href": "/diplomatic" },
+          { "label": "Gusaba Imiduga", "href": "/fleet" }
+        ]
+      },
+      "sustainability": {
+        "heading": "Gahunda y'Ibidukikije",
+        "links": [
+          { "label": "Ikarata y'Ibikoresho vyo Guchaji", "href": "/network" },
+          { "label": "Inzira z'Ibidukikije (ESG)", "href": "/network" },
+          { "label": "Amakuru y'Imicafu Zeru", "href": "/network" },
+          { "label": "Ibibanza byo Guchaji na Izuba", "href": "/network" },
+          { "label": "Raporo y'EV mu Burundi", "href": "/network" }
+        ]
+      },
+      "legal": {
+        "heading": "Amategeko & Igenamigambi",
+        "links": [
+          { "label": "Amategeko y'Ingarantiyé", "href": "/fleet" },
+          { "label": "Politiki yo Kurinda Amakuru", "href": "/fleet" },
+          { "label": "Amategeko yo Gukoresha", "href": "/fleet" },
+          { "label": "Politiki ya Cookie", "href": "/fleet" },
+          { "label": "Ikarata y'Urubuga", "href": "/fleet" }
+        ]
+      }
+    },
+    "trust": [
+      { "icon": "shield", "title": "Ubwiza Butagira Kimwe", "desc": "Isuzuma ry'ihinguriro rikomeye kugira ngo ube amahoro." },
+      { "icon": "user", "title": "Mukirwa niwe Mbere", "desc": "Ibyishimo ryawe n'ibanga ryawe ni ivyihutirwa." },
+      { "icon": "globe", "title": "Gutanga ku Isi Yose", "desc": "Tugutwarira imiduga ya kigirishingo aho utuye." },
+      { "icon": "zap", "title": "Ejo Haziza Heza", "desc": "Turangura guteza imbere ejo haziza heza." }
+    ],
+    "badges": [
+      { "icon": "shield", "title": "Ingarantiyé y'Imyaka 8 ya Batterie", "desc": "Twambuka mu mahoro." },
+      { "icon": "charging", "title": "Inzira y'Igihugu yo Guchaji", "desc": "Iga ahantu h'ibihumbi byo guchaji." },
+      { "icon": "refresh", "title": "Ubufasha bw'Inzira 24/7", "desc": "Turi hano igihe ushaka." },
+      { "icon": "lock", "title": "Bikingiriwe & Bigenwe", "desc": "Amakuru yawe azorindwa igihe cose." }
+    ],
+    "newsletter": {
+      "heading": "Amakuru mashasha",
+      "desc": "Iyandikishe kugira ngo ubone amakuru mashasha, amatanga n'ibikorwa bidasanzwe.",
+      "placeholder": "Injiza imeyili yawe",
+      "ariaLabel": "Iyandikishe"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
+    "bottom": {
+      "copyright": "© 2026 Ikibanza Premium 0 Km. Ibipimo vy'Ihinguriro Gusa.",
+      "privacy": "Politiki yo Kurinda Amakuru",
+      "terms": "Amategeko yo Gukoresha",
+      "cookies": "Politiki ya Cookie",
+      "sitemap": "Ikarata y'Urubuga",
+      "backToTop": "Subira hejuru"
+    }
   }
 }

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "../globals.css";
+import { getDictionary } from "@/lib/get-dictionary";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -27,6 +30,7 @@ export default async function LanguageLayout({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
+  const dict = await getDictionary(lang);
   
   return (
     <html
@@ -34,7 +38,9 @@ export default async function LanguageLayout({
       className={`${inter.variable} ${outfit.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-brand-obsidian text-brand-platinum font-sans">
-        {children}
+        <Header lang={lang} nav={dict.nav} />
+        <main className="flex-1">{children}</main>
+        <Footer lang={lang} footer={dict.footer} />
       </body>
     </html>
   );
