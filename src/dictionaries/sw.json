@@ -34,6 +34,19 @@
     "connectorType": "Aina ya Kiunganishi",
     "powerOutput": "Nguvu ya Kutoa"
   },
+  "showroom": {
+    "featuredVehicles": "Magari ya Umeme Yanayoangaziwa",
+    "exploreVehicle": "Tazama Gari",
+    "available": "Linapatikana",
+    "reserved": "Limehifadhiwa",
+    "allocated": "Limetengwa",
+    "range": "Umbali",
+    "power": "Nguvu",
+    "acceleration": "0-100",
+    "topSpeed": "Kasi ya Juu",
+    "battery": "Betri",
+    "startingFrom": "Kuanzia"
+  },
   "footer": {
     "tagline": "Tunaongoza usafirishaji wa magari mapya ya umeme wa kiwanda wenye utendaji wa hali na uzalishaji sifuri.",
     "columns": {
@@ -79,16 +92,48 @@
       }
     },
     "trust": [
-      { "icon": "shield", "title": "Ubora Usio na Kifani", "desc": "Uthibitisho wa kiwanda mkali kwa ubora usio na maelewano." },
-      { "icon": "user", "title": "Mteja Kwanza", "desc": "Kuridhika kwako na faragha yako ni vipaumbele vyetu." },
-      { "icon": "globe", "title": "Utoaji Duniani", "desc": "Kuwasilisha usafirishaji wa umeme hadi mlangoni kwako." },
-      { "icon": "zap", "title": "Mustakabali Endelevu", "desc": "Kuendesha uvumbuzi kwa kesho safi zaidi." }
+      {
+        "icon": "shield",
+        "title": "Ubora Usio na Kifani",
+        "desc": "Uthibitisho wa kiwanda mkali kwa ubora usio na maelewano."
+      },
+      {
+        "icon": "user",
+        "title": "Mteja Kwanza",
+        "desc": "Kuridhika kwako na faragha yako ni vipaumbele vyetu."
+      },
+      {
+        "icon": "globe",
+        "title": "Utoaji Duniani",
+        "desc": "Kuwasilisha usafirishaji wa umeme hadi mlangoni kwako."
+      },
+      {
+        "icon": "zap",
+        "title": "Mustakabali Endelevu",
+        "desc": "Kuendesha uvumbuzi kwa kesho safi zaidi."
+      }
     ],
     "badges": [
-      { "icon": "shield", "title": "Dhamana ya Betri ya Miaka 8", "desc": "Endesha kwa amani kamili." },
-      { "icon": "charging", "title": "Mtandao wa Kuchaji wa Taifa", "desc": "Pata maelfu ya vituo vya kuchaji." },
-      { "icon": "refresh", "title": "Usaidizi wa Barabarani 24/7", "desc": "Tuko hapa wakati wowote unahitaji." },
-      { "icon": "lock", "title": "Salama & Imesimbwa", "desc": "Data yako inalindwa kila wakati." }
+      {
+        "icon": "shield",
+        "title": "Dhamana ya Betri ya Miaka 8",
+        "desc": "Endesha kwa amani kamili."
+      },
+      {
+        "icon": "charging",
+        "title": "Mtandao wa Kuchaji wa Taifa",
+        "desc": "Pata maelfu ya vituo vya kuchaji."
+      },
+      {
+        "icon": "refresh",
+        "title": "Usaidizi wa Barabarani 24/7",
+        "desc": "Tuko hapa wakati wowote unahitaji."
+      },
+      {
+        "icon": "lock",
+        "title": "Salama & Imesimbwa",
+        "desc": "Data yako inalindwa kila wakati."
+      }
     ],
     "newsletter": {
       "heading": "Jarida",

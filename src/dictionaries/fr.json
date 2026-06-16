@@ -34,6 +34,19 @@
     "connectorType": "Type de Connecteur",
     "powerOutput": "Puissance de Sortie"
   },
+  "showroom": {
+    "featuredVehicles": "Véhicules Électriques en Vedette",
+    "exploreVehicle": "Découvrir le Véhicule",
+    "available": "Disponible",
+    "reserved": "Réservé",
+    "allocated": "Attribué",
+    "range": "Autonomie",
+    "power": "Puissance",
+    "acceleration": "0-100",
+    "topSpeed": "Vitesse Max",
+    "battery": "Batterie",
+    "startingFrom": "À partir de"
+  },
   "footer": {
     "tagline": "Pionnier de la mobilité électrique d'usine avec performance inégalée et zéro émission au cœur.",
     "columns": {
@@ -79,16 +92,48 @@
       }
     },
     "trust": [
-      { "icon": "shield", "title": "Qualité Inégalée", "desc": "Certification d'usine rigoureuse pour une excellence irréprochable." },
-      { "icon": "user", "title": "Client en Premier", "desc": "Votre satisfaction et vie privée sont nos priorités." },
-      { "icon": "globe", "title": "Livraison Mondiale", "desc": "Mobilité électrique livrée à votre porte." },
-      { "icon": "zap", "title": "Avenir Durable", "desc": "Innover pour un lendemain plus propre." }
+      {
+        "icon": "shield",
+        "title": "Qualité Inégalée",
+        "desc": "Certification d'usine rigoureuse pour une excellence irréprochable."
+      },
+      {
+        "icon": "user",
+        "title": "Client en Premier",
+        "desc": "Votre satisfaction et vie privée sont nos priorités."
+      },
+      {
+        "icon": "globe",
+        "title": "Livraison Mondiale",
+        "desc": "Mobilité électrique livrée à votre porte."
+      },
+      {
+        "icon": "zap",
+        "title": "Avenir Durable",
+        "desc": "Innover pour un lendemain plus propre."
+      }
     ],
     "badges": [
-      { "icon": "shield", "title": "Garantie Batterie 8 Ans", "desc": "Roulez en toute sérénité." },
-      { "icon": "charging", "title": "Réseau de Recharge National", "desc": "Accédez à des milliers de points de recharge." },
-      { "icon": "refresh", "title": "Assistance Routière 24h/7j", "desc": "Nous sommes là quand vous en avez besoin." },
-      { "icon": "lock", "title": "Sécurisé & Chiffré", "desc": "Vos données sont toujours protégées." }
+      {
+        "icon": "shield",
+        "title": "Garantie Batterie 8 Ans",
+        "desc": "Roulez en toute sérénité."
+      },
+      {
+        "icon": "charging",
+        "title": "Réseau de Recharge National",
+        "desc": "Accédez à des milliers de points de recharge."
+      },
+      {
+        "icon": "refresh",
+        "title": "Assistance Routière 24h/7j",
+        "desc": "Nous sommes là quand vous en avez besoin."
+      },
+      {
+        "icon": "lock",
+        "title": "Sécurisé & Chiffré",
+        "desc": "Vos données sont toujours protégées."
+      }
     ],
     "newsletter": {
       "heading": "Newsletter",

@@ -34,6 +34,19 @@
     "connectorType": "Connector Type",
     "powerOutput": "Power Output"
   },
+  "showroom": {
+    "featuredVehicles": "Featured Electric Vehicles",
+    "exploreVehicle": "Explore Vehicle",
+    "available": "Available",
+    "reserved": "Reserved",
+    "allocated": "Allocated",
+    "range": "Range",
+    "power": "Power",
+    "acceleration": "0-100",
+    "topSpeed": "Top Speed",
+    "battery": "Battery",
+    "startingFrom": "Starting From"
+  },
   "footer": {
     "tagline": "Pioneering factory-fresh electric mobility with unmatched performance and zero emissions at the core.",
     "columns": {
@@ -79,16 +92,48 @@
       }
     },
     "trust": [
-      { "icon": "shield", "title": "Unmatched Quality", "desc": "Rigorous factory certification for uncompromised excellence." },
-      { "icon": "user", "title": "Client First", "desc": "Your satisfaction and privacy are our top priorities." },
-      { "icon": "globe", "title": "Worldwide Delivery", "desc": "Delivering electric mobility to your doorstep." },
-      { "icon": "zap", "title": "Sustainable Future", "desc": "Driving innovation for a cleaner tomorrow." }
+      {
+        "icon": "shield",
+        "title": "Unmatched Quality",
+        "desc": "Rigorous factory certification for uncompromised excellence."
+      },
+      {
+        "icon": "user",
+        "title": "Client First",
+        "desc": "Your satisfaction and privacy are our top priorities."
+      },
+      {
+        "icon": "globe",
+        "title": "Worldwide Delivery",
+        "desc": "Delivering electric mobility to your doorstep."
+      },
+      {
+        "icon": "zap",
+        "title": "Sustainable Future",
+        "desc": "Driving innovation for a cleaner tomorrow."
+      }
     ],
     "badges": [
-      { "icon": "shield", "title": "8-Year Battery Warranty", "desc": "Drive with complete peace of mind." },
-      { "icon": "charging", "title": "Nationwide Charging Network", "desc": "Access thousands of charging points." },
-      { "icon": "refresh", "title": "24/7 Roadside Assistance", "desc": "We're here whenever you need us." },
-      { "icon": "lock", "title": "Secure & Encrypted", "desc": "Your data is always protected." }
+      {
+        "icon": "shield",
+        "title": "8-Year Battery Warranty",
+        "desc": "Drive with complete peace of mind."
+      },
+      {
+        "icon": "charging",
+        "title": "Nationwide Charging Network",
+        "desc": "Access thousands of charging points."
+      },
+      {
+        "icon": "refresh",
+        "title": "24/7 Roadside Assistance",
+        "desc": "We're here whenever you need us."
+      },
+      {
+        "icon": "lock",
+        "title": "Secure & Encrypted",
+        "desc": "Your data is always protected."
+      }
     ],
     "newsletter": {
       "heading": "Newsletter",

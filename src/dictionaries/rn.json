@@ -34,6 +34,19 @@
     "connectorType": "Ubwoko bw'Igikoresho",
     "powerOutput": "Inguvu Zisohoka"
   },
+  "showroom": {
+    "featuredVehicles": "Imodoka z'Amashanyarazi Zihambaye",
+    "exploreVehicle": "Raba Imodoka",
+    "available": "Irahari",
+    "reserved": "Yabitswe",
+    "allocated": "Yagenwe",
+    "range": "Uburebure bw'Urugendo",
+    "power": "Ubushobozi",
+    "acceleration": "0-100",
+    "topSpeed": "Umuvuduko Ntarengwa",
+    "battery": "Bateri",
+    "startingFrom": "Bitangurira kuri"
+  },
   "footer": {
     "tagline": "Turangura mu gushira imbere imiduga mishasha ya kigirishingo ifite inguvu nziza kandi idakora imicafu.",
     "columns": {
@@ -79,16 +92,48 @@
       }
     },
     "trust": [
-      { "icon": "shield", "title": "Ubwiza Butagira Kimwe", "desc": "Isuzuma ry'ihinguriro rikomeye kugira ngo ube amahoro." },
-      { "icon": "user", "title": "Mukirwa niwe Mbere", "desc": "Ibyishimo ryawe n'ibanga ryawe ni ivyihutirwa." },
-      { "icon": "globe", "title": "Gutanga ku Isi Yose", "desc": "Tugutwarira imiduga ya kigirishingo aho utuye." },
-      { "icon": "zap", "title": "Ejo Haziza Heza", "desc": "Turangura guteza imbere ejo haziza heza." }
+      {
+        "icon": "shield",
+        "title": "Ubwiza Butagira Kimwe",
+        "desc": "Isuzuma ry'ihinguriro rikomeye kugira ngo ube amahoro."
+      },
+      {
+        "icon": "user",
+        "title": "Mukirwa niwe Mbere",
+        "desc": "Ibyishimo ryawe n'ibanga ryawe ni ivyihutirwa."
+      },
+      {
+        "icon": "globe",
+        "title": "Gutanga ku Isi Yose",
+        "desc": "Tugutwarira imiduga ya kigirishingo aho utuye."
+      },
+      {
+        "icon": "zap",
+        "title": "Ejo Haziza Heza",
+        "desc": "Turangura guteza imbere ejo haziza heza."
+      }
     ],
     "badges": [
-      { "icon": "shield", "title": "Ingarantiyé y'Imyaka 8 ya Batterie", "desc": "Twambuka mu mahoro." },
-      { "icon": "charging", "title": "Inzira y'Igihugu yo Guchaji", "desc": "Iga ahantu h'ibihumbi byo guchaji." },
-      { "icon": "refresh", "title": "Ubufasha bw'Inzira 24/7", "desc": "Turi hano igihe ushaka." },
-      { "icon": "lock", "title": "Bikingiriwe & Bigenwe", "desc": "Amakuru yawe azorindwa igihe cose." }
+      {
+        "icon": "shield",
+        "title": "Ingarantiyé y'Imyaka 8 ya Batterie",
+        "desc": "Twambuka mu mahoro."
+      },
+      {
+        "icon": "charging",
+        "title": "Inzira y'Igihugu yo Guchaji",
+        "desc": "Iga ahantu h'ibihumbi byo guchaji."
+      },
+      {
+        "icon": "refresh",
+        "title": "Ubufasha bw'Inzira 24/7",
+        "desc": "Turi hano igihe ushaka."
+      },
+      {
+        "icon": "lock",
+        "title": "Bikingiriwe & Bigenwe",
+        "desc": "Amakuru yawe azorindwa igihe cose."
+      }
     ],
     "newsletter": {
       "heading": "Amakuru mashasha",
