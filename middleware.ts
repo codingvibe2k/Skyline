@@ -17,7 +17,7 @@ export const config = {
   ],
 };
 
-export function proxy(request: NextRequest) {
+export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // 1. Check if the path already has a supported locale
